@@ -1,0 +1,518 @@
+body {
+  background-color: black;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+}
+
+.barraLateral {
+  width: 200px;
+  height: 100%;
+  background-color: rgb(72, 72, 95);
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  position: absolute;
+  top: 0px;
+  left: 0;
+}
+.barraLateral-sectionArriba {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 200px;
+  height: 70%;
+}
+.barraLateral-sectionAbajo {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  width: 200px;
+  height: 30%;
+}
+
+h4 {
+  color: rgb(0, 0, 0);
+}
+
+.ulLinks {
+  padding-left: 15px;
+  list-style: none;
+}
+
+#liLinks {
+  background-color: rgb(38, 38, 49);
+  width: 165px !important;
+}
+#liLinks:hover {
+  background-color: rgb(18, 18, 22);
+}
+
+#aLinks {
+  color: white !important;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.containerCE {
+  padding-left: 380px;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.containerCE-sectionArriba {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 700px;
+  height: 400px;
+  border-radius: 20px;
+  background-color: rgb(38, 38, 49);
+}
+.containerCE-sectionArriba-formArriba {
+  height: 290px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.containerCE-sectionArriba-formAbajo {
+  margin-top: 20px;
+  height: 70px;
+}
+.containerCE-sectionArriba-formAbajo-containerBotonCrear {
+  display: flex;
+  flex-direction: row;
+}
+.containerCE-sectionArriba-formAbajo-containerBotonCrear-sectionAlerta {
+  width: 300px;
+  height: 60px;
+}
+.containerCE-sectionArriba-formAbajo-containerBotonCrear-sectionAlerta-alert {
+  display: flex;
+  height: 60px;
+  width: 320px !important;
+}
+.containerCE-sectionArriba-formAbajo-containerBotonCrear-sectionAlerta-alert-alerta {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  width: 700px;
+  height: 50px !important;
+  font-size: 15px;
+}
+.containerCE-sectionArriba-formAbajo-containerBotonCrear-sectionBoton {
+  width: 280px;
+  height: 60px;
+}
+.containerCE-sectionArriba-formAbajo-containerBotonCrear-sectionBoton-botonsito {
+  display: flex;
+  justify-content: end;
+}
+.containerCE-sectionArriba-formAbajo-containerBotonCrear-sectionBoton-botonsito-botonCrearUsuario {
+  color: rgb(0, 0, 0);
+  border-radius: 15px;
+  border: 0px;
+  width: 240px;
+  padding: 5px;
+  font-size: 20px;
+}
+.containerCE-sectionArriba-formAbajo-containerBotonCrear-sectionBoton-botonsito-botonCrearUsuario:hover {
+  background: rgb(206, 203, 203);
+  color: rgb(0, 0, 0);
+}
+
+#crearTrasnporte-label {
+  color: white;
+  width: 270px;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.containerLE {
+  padding-left: 280px;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 1200px;
+  border-radius: 20px;
+}
+.containerLE-tablaLE {
+  width: 1000px !important;
+}
+.containerLE-tablaLE-tHeadLE {
+  background-color: rgb(38, 38, 49);
+  color: white;
+}
+
+.fas {
+  color: rgb(38, 38, 49);
+}
+
+.containerLogin {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 180px;
+}
+.containerLogin-formLogin {
+  width: 500px;
+  height: 300px;
+  background-color: rgb(38, 38, 49);
+  border-radius: 20px;
+}
+.containerLogin-formLogin-formlario {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 500px !important;
+}
+.containerLogin-formLogin-formlario-boton {
+  background: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  border-radius: 5px;
+  border: 0px;
+  width: 370px;
+  padding: 5px;
+  margin-top: 10px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.containerLogin-formLogin-formlario-boton:hover {
+  background: rgb(95, 94, 94);
+  color: rgb(0, 0, 0);
+}
+
+#bodyLogin {
+  background-color: rgb(0, 0, 0);
+  overflow: hidden;
+}
+
+#loginLabel {
+  color: white;
+  width: 370px;
+  margin-top: 10px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#tituloLogin {
+  color: white;
+}
+
+#loginInput {
+  font-size: 20px;
+}
+
+.containerSA {
+  padding-left: 280px;
+  margin-top: 180px;
+}
+
+.containerCU {
+  padding-left: 380px;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.containerCU-sectionArriba {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 750px;
+  height: 400px;
+  border-radius: 20px;
+  background-color: rgb(38, 38, 49);
+}
+.containerCU-sectionArriba-formArriba {
+  height: 690px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.containerCU-sectionArriba-formArriba-formlarioCU {
+  width: 650px;
+}
+.containerCU-sectionArriba-formAbajo {
+  margin-top: 20px;
+  height: 70px;
+}
+.containerCU-sectionArriba-formAbajo-containerBotonCrear {
+  display: flex;
+  flex-direction: row;
+}
+.containerCU-sectionArriba-formAbajo-containerBotonCrear-sectionAlerta {
+  width: 300px;
+  height: 60px;
+}
+.containerCU-sectionArriba-formAbajo-containerBotonCrear-sectionAlerta-alert {
+  display: flex;
+  height: 60px;
+  width: 480px !important;
+}
+.containerCU-sectionArriba-formAbajo-containerBotonCrear-sectionAlerta-alert-alerta {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  width: 700px;
+  height: 50px !important;
+  font-size: 15px;
+}
+.containerCU-sectionArriba-formAbajo-containerBotonCrear-sectionBoton {
+  width: 380px;
+  height: 60px;
+}
+.containerCU-sectionArriba-formAbajo-containerBotonCrear-sectionBoton-botonsito {
+  display: flex;
+  justify-content: end;
+}
+.containerCU-sectionArriba-formAbajo-containerBotonCrear-sectionBoton-botonsito-botonCrearUsuario {
+  color: rgb(0, 0, 0);
+  border-radius: 15px;
+  border: 0px;
+  width: 240px;
+  padding: 5px;
+  font-size: 20px;
+}
+.containerCU-sectionArriba-formAbajo-containerBotonCrear-sectionBoton-botonsito-botonCrearUsuario:hover {
+  background: rgb(206, 203, 203);
+  color: rgb(0, 0, 0);
+}
+.containerCU-sectionAbajo {
+  width: 100px;
+  height: 100px;
+  background-color: rgb(255, 11, 64);
+}
+
+.containerVD {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.containerVD-sectionArriba {
+  width: 400px;
+  height: 500px;
+  background-color: rgb(255, 11, 64);
+}
+
+.containerVD {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-left: 100px !important;
+  margin-top: 70px;
+}
+.containerVD-cardPC {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 800px;
+  height: 400px;
+  background-color: rgb(38, 38, 49);
+  border-radius: 20px;
+}
+.containerVD-cardPC-infoPC {
+  width: 750px;
+  height: 400px;
+  display: flex;
+  flex-direction: row;
+}
+.containerVD-cardPC-infoPC-sectionIzq {
+  width: 400px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.containerVD-cardPC-infoPC-sectionIzq-arribaInfo {
+  width: 600px;
+  height: 280px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.containerVD-cardPC-infoPC-sectionIzq-arribaInfo-nameUser {
+  font-weight: bold;
+  font-size: 28px;
+  color: white;
+}
+.containerVD-cardPC-infoPC-sectionIzq-arribaInfo-infoUser {
+  text-align: center;
+  font-size: 20px;
+  color: white;
+}
+.containerVD-cardPC-infoPC-sectionDer {
+  width: 300px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.containerVD-cardPC-infoPC-sectionDer-fotoVer {
+  width: 270px;
+  height: 280px;
+}
+.containerVD-cardPC-infoPC-sectionDer-fotoVer-fotoVerFoto {
+  width: 270px;
+  height: 270px;
+  border-radius: 100px;
+}
+.containerVD-cardPC-abajoVolver {
+  display: flex;
+  justify-content: start;
+  width: 800px;
+  height: 70px;
+}
+.containerVD-cardPC-abajoVolver-botones {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.containerVD-cardPC-abajoVolver-botones-linkCard {
+  background-color: rgb(38, 38, 49);
+  color: rgb(255, 255, 255) !important;
+  border: 0px;
+  width: 220px;
+  height: 50px !important;
+  padding: 10px;
+  text-align: center;
+  border-radius: 20px;
+  text-decoration: none;
+  font-size: 20px;
+  margin-right: 10px;
+  font-weight: bold;
+}
+.containerVD-cardPC-abajoVolver-botones-linkCard:hover {
+  background: rgb(99, 96, 96);
+  color: rgb(255, 255, 255);
+}
+
+.cardFotoActualizar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-left: 160px !important;
+}
+.cardFotoActualizar-cFA {
+  width: 800px;
+  height: 450px;
+}
+.cardFotoActualizar-cFA-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 800px;
+  height: 450px !important;
+  margin-left: 50px;
+  border-radius: 10px;
+  background-color: rgb(38, 38, 49);
+}
+.cardFotoActualizar-cFA-info-arriba {
+  width: 600px;
+  height: 350px;
+}
+.cardFotoActualizar-cFA-info-arriba-foto {
+  width: 600px !important;
+  height: 350px !important;
+  border-radius: 10px !important;
+}
+.cardFotoActualizar-cFA-info-abajo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 500px;
+  height: 100px;
+}
+.cardFotoActualizar-cFA-info-abajo-formArriba {
+  width: 500px;
+  height: 50px;
+}
+.cardFotoActualizar-cFA-info-abajo-formAbajo {
+  display: flex;
+  flex-direction: row;
+  width: 500px;
+  height: 50px;
+}
+.cardFotoActualizar-cFA-info-abajo-formAbajo-izq {
+  width: 250px;
+  height: 50px;
+  margin-left: 10px;
+}
+.cardFotoActualizar-cFA-info-abajo-formAbajo-izq-btn {
+  background-color: white;
+  width: 100px;
+  height: 40px;
+  border: 0px;
+  border-radius: 10px;
+}
+.cardFotoActualizar-cFA-info-abajo-formAbajo-izq-btn:hover {
+  background-color: #242323;
+  color: white;
+}
+.cardFotoActualizar-cFA-info-abajo-formAbajo-der {
+  width: 250px;
+  height: 40px;
+}
+.cardFotoActualizar-cFA-info-abajo-formAbajo-der-alertaFo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  height: 40px;
+}
+.cardFotoActualizar-botonInfo {
+  width: 700px;
+  height: 60px;
+}
+.cardFotoActualizar-botonInfo-bCI {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.cardFotoActualizar-botonInfo-bCI-botones {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  width: 900px;
+  height: 60px !important;
+  border-radius: 10px;
+  opacity: 1;
+}
+.cardFotoActualizar-botonInfo-bCI-botones-linkCard {
+  background-color: rgb(38, 38, 49);
+  color: rgb(255, 255, 255) !important;
+  border: 0px;
+  width: 220px;
+  height: 40px !important;
+  padding: 8px;
+  text-align: center;
+  border-radius: 20px;
+  text-decoration: none;
+  font-size: 18px;
+  margin-right: 8px;
+}
+.cardFotoActualizar-botonInfo-bCI-botones-linkCard:hover {
+  background: rgb(99, 96, 96);
+  color: rgb(255, 255, 255);
+}
+
+/*# sourceMappingURL=stylesBarra.css.map */
