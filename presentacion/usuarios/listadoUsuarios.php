@@ -47,7 +47,7 @@ include "presentacion/barraLateral.php";
                         echo "<td>" . $u->getEdad() . "</td>";
                         echo "<td>" . $u->getDireccion() . "</td>";
                         echo "<td>" . $u->getCedula() . "</td>";
-                        echo "<td>" . (($u->getFoto()!="")?"<img src='/pruebaT/imgFotosUsers/" . $u->getFoto() . "' height='50px'>":"") . "</td>";
+                        echo "<td>" . (($u->getFoto()!="")?"<img src='/pruebaT/pruebaTecnica-stcFenix/imgFotosUsers/" . $u->getFoto() . "' height='50px'>":"") . "</td>";
                         echo "<td>" . "<a class='fas fa-eye' href='index.php?pid=" . base64_encode("presentacion/usuarios/verDetalles.php") . "&idusuario=" . $u->getId() . "' data-toggle='tooltip' data-placement='left' title='Ver Detalles'> </a>
                                         <a class='fas fa-pencil-ruler' href='index.php?pid=" . base64_encode("presentacion/usuarios/actualizarUsuarios.php") . "&idusuario=" . $u->getId() . "' data-toggle='tooltip' data-placement='left' title='Actualizar'> </a>
                                         <a class='fas fa-camera' href='index.php?pid=" . base64_encode("presentacion/usuarios/fotoUsuario.php") . "&idusuario=" . $u->getId() . "' data-toggle='tooltip' data-placement='left' title='Actualizar Foto'> </a>

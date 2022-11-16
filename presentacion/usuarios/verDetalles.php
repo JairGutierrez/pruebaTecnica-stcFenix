@@ -53,7 +53,7 @@ include "presentacion/barraLateral.php";
             <section class="containerVD-cardPC-infoPC-sectionDer">
                 <section class="containerVD-cardPC-infoPC-sectionDer-fotoVer">
                     <img class="containerVD-cardPC-infoPC-sectionDer-fotoVer-fotoVerFoto" 
-                            src="/pruebaT/imgFotosUsers/<?php echo $usuario->getFoto()?>" height="200px"></img>
+                            src="/pruebaT/pruebaTecnica-stcFenix/imgFotosUsers/<?php echo $usuario->getFoto()?>" height="200px"></img>
                 </section>
             </section>
         </section>

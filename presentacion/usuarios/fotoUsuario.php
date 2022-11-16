@@ -13,10 +13,10 @@ if (isset($_POST["actualizar"])) {
         if (strlen($nombre_foto) <= 45) {
             if ($tipo_foto == "image/png" || $tipo_foto == "image/jpeg" || $tipo_foto == "image/jpg") {
                 if ($usuario->getFoto()) {
-                    unlink("C:/xampp/htdocs/pruebaT/imgFotosUsers/" . $usuario->getFoto());
+                    unlink("C:/xampp/htdocs/pruebaT/pruebaTecnica-stcFenix/imgFotosUsers/" . $usuario->getFoto());
                 }
                 // ruta de la carpeta destino en el servidor
-                $carpeta_destino = $_SERVER['DOCUMENT_ROOT'] . '/pruebaT/imgFotosUsers/';
+                $carpeta_destino = $_SERVER['DOCUMENT_ROOT'] . '/pruebaT/pruebaTecnica-stcFenix/imgFotosUsers/';
                 // movemos la imagen de la carpeta temporal al directorio escogido
                 move_uploaded_file($_FILES['foto']['tmp_name'], $carpeta_destino . $nombre_foto);
 
@@ -54,7 +54,7 @@ include 'presentacion/barraLateral.php';
         <div class="cardFotoActualizar-cFA">
             <div class="cardFotoActualizar-cFA-info">
                 <section class="cardFotoActualizar-cFA-info-arriba mt-1">
-                    <img class="cardFotoActualizar-cFA-info-arriba-foto" src="/pruebaT/imgFotosUsers/<?php echo $usuario->getFoto()?>" alt="...">
+                    <img class="cardFotoActualizar-cFA-info-arriba-foto" src="/pruebaT/pruebaTecnica-stcFenix/imgFotosUsers/<?php echo $usuario->getFoto()?>" alt="...">
                 </section>
                 <section class="cardFotoActualizar-cFA-info-abajo">
                     <form action=<?php echo "index.php?pid=" . base64_encode("presentacion/usuarios/fotoUsuario.php") ."&idusuario=".$_GET["idusuario"] ?> method="post" enctype="multipart/form-data">
