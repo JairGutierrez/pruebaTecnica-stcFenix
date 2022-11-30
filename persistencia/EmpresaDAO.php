@@ -77,7 +77,7 @@ class EmpresaDAO{
     }
 
     function eliminarEmpresa(){
-        return "delete from empresa 
+        return "delete from empresas 
                 where idempresas =" . $this -> idempresas;
     }
 
